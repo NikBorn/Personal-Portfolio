@@ -2,6 +2,7 @@
 
 header {
   display: flex;
+  justify-content: space-between;
 }
 
 h1 {
@@ -14,6 +15,10 @@ h1 {
   font-weight: 700;
 }
 
+.name-and-logo {
+  display: flex;
+}
+
 .logo-container {
   border: 2px solid #F9F9F9;
   width: 30px;
@@ -24,4 +29,15 @@ h1 {
   font-size: 20px;
   padding: 4px;
   margin-right: 4px;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #F9F9F9;
+}
+
+a:hover {
+  padding-bottom: 2px;
+  border-bottom: 2px solid #0F5F8A;
 }
