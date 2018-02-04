@@ -21,7 +21,9 @@ class App extends Component {
         <main>
           <h1 className='site-title'>NIK BORNEMEIER: Front-end Developer</h1>
           <p className="intro">
-            I am a denver based front-end wed developer with a passion for creativity, continuing eduction, and writing code.
+            CURRENTLY LOOKING FOR A NEW POSITION!!! <br/>
+            <br/>
+            I am a Denver based front-end wed developer with a passion for creativity, continuing eduction, and writing code.
             I created this website to show off some of the projects and websites that I have worked on in the past.  Take
             a look around and let me know your thoughts.  Be sure and visit the portfolio page to see my work and the contact
             page if you would like to reach out.
