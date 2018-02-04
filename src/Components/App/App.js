@@ -9,14 +9,10 @@ class App extends Component {
           <div className='logo-container'>
             <p>NB</p>
           </div>
-          <h1 className="title">Nik Bornemeier <br/> Frond-end Web Developer</h1>
+          <h1 className="title"><span className='name'>Nik Bornemeier</span> <br/> Frond-end Web Developer</h1>
         </header>
 
-
-
-
-        
-        <p className="App-intro">
+        <p className="intro">
           
         </p>
       </div>

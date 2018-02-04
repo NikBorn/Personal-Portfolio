@@ -1,0 +1,27 @@
+
+
+header {
+  display: flex;
+}
+
+h1 {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.name {
+  font-size: 16px;  
+  font-weight: 700;
+}
+
+.logo-container {
+  border: 2px solid #F9F9F9;
+  width: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 4px;
+  margin-right: 4px;
+}
