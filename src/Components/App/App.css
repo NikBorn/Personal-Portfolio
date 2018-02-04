@@ -3,9 +3,12 @@
 header {
   display: flex;
   justify-content: space-between;
+  /* border-bottom: 4px solid #0F5F8A; */
+  padding-bottom: 14px;
+  align-items: center;
 }
 
-h1 {
+h2 {
   font-size: 14px;
   font-weight: 300;
 }
@@ -40,4 +43,69 @@ a {
 a:hover {
   padding-bottom: 2px;
   border-bottom: 2px solid #0F5F8A;
+}
+
+
+.site-title {
+  margin-top: 40px;
+  border-bottom: 2px solid #0F5F8A;
+  display: inline-block;
+}
+
+.intro {
+  margin-top: 20px;
+}
+
+main {
+  padding: 0 40px;
+}
+
+.nav-buttons-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  width: 33.2%;
+  height: 200px;
+  /* border: 2px solid magenta; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #045F8C;
+  flex-direction: column;
+}
+
+.nav-button:hover {
+  background-color: rgb(2, 68, 100);
+}
+
+.nav-button-icon {
+  height: 80px;
+  width: 80px;
+  background-size: contain;
+  margin-bottom: 8px;
+  background-repeat: no-repeat;
+}
+
+.nav-button:hover > .nav-button-icon{
+  height: 90px;
+  width: 90px;
+}
+
+.nav-button:hover > p {
+  font-size: 20px;
+}
+
+.nav-button-info {
+  background-image: url('./info-2-128.png')
+}
+
+.nav-button-portfolio {
+  background-image: url('./website-design-3-128.png')
+}
+
+.nav-button-contact {
+  background-image: url('./email-14-128.png');
 }
