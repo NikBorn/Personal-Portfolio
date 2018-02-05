@@ -4,8 +4,9 @@ header {
   display: flex;
   justify-content: space-between;
   /* border-bottom: 4px solid #0F5F8A; */
-  padding-bottom: 14px;
+  padding: 20px 40px;
   align-items: center;
+
 }
 
 h2 {
@@ -110,4 +111,27 @@ a:hover {
 
 .nav-button-contact {
   background-image: url('./email-14-128.png');
+}
+
+
+
+.page-header {
+  background-color: #F9F9F9;
+  color: #0F5F8A;
+  padding: 20px 40px;
+}
+
+/* .about-page {
+  
+} */
+
+.homepage {
+  padding: 0 40px;
+}
+
+.about-text {
+  padding: 0 40px;
+  margin-top: 40px;
+  line-height: 1.3em;
+  letter-spacing: .05em
 }
