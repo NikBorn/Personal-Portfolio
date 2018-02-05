@@ -1,27 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
+import Header from '../Header/Header'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header>
-          <div className='name-and-logo'>
-          <div className='logo-container'>
-            <p>NB</p>
-          </div>
-          <h2 className="title"><span className='name'>Nik Bornemeier</span> <br/> Frond-end Web Developer</h2>
-          </div>
-          <nav>
-            <a href="/">ABOUT</a> 
-            <a href="/">PORTFOLIO</a> 
-            <a href="/">CONTACT</a> 
-          </nav>
-        </header>
+        <Header />
         <main>
-          <h1 className='site-title'>NIK BORNEMEIER: Front-end Developer</h1>
+          <h1 className='site-title'>NIK BORNEMEIER: Front-end Web Developer</h1>
           <p className="intro">
-            CURRENTLY LOOKING FOR A NEW POSITION!!! <br/>
+            <strong>CURRENTLY LOOKING FOR A NEW POSITION!!! </strong><br/>
             <br/>
             I am a Denver based front-end wed developer with a passion for creativity, continuing eduction, and writing code.
             I created this website to show off some of the projects and websites that I have worked on in the past.  Take
