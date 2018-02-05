@@ -2,7 +2,7 @@ import React from 'react';
 
 const Homepage = () => {
   return (
-    <main>
+    <main className='homepage'>
       <h1 className='site-title'>NIK BORNEMEIER: Front-end Web Developer</h1>
       <p className="intro">
         <strong>CURRENTLY LOOKING FOR A NEW POSITION!!! </strong><br />
