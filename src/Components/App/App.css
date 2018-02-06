@@ -121,10 +121,6 @@ a:hover {
   padding: 20px 40px;
 }
 
-/* .about-page {
-  
-} */
-
 .homepage {
   padding: 0 40px;
 }
@@ -135,3 +131,12 @@ a:hover {
   line-height: 1.3em;
   letter-spacing: .05em
 }
+
+.contact-page {
+  padding: 20px 40px;
+}
+
+h4 {
+  margin-bottom: 8px;
+}
+

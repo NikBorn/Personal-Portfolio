@@ -15,7 +15,7 @@ const About = () => {
         Licensing Manager, Delivery Manager, and Product Designer.
         <br /><br />
         I am very excited to enter a new chapter of my life by starting out in a completly new field.  I recently
-        graduated from Turing School of Software and Design in Denver, CO with a certificat of completion from their
+        graduated from Turing School of Software and Design in Denver, CO with a certificate of completion from their
         front-end developer program.  Besides learning valuable skills like time and stress management as well as
         personal and coloaborative, project management; I also learned HTML5, Javascript(Echmascript6), CSS3, React,
         React-Redux and Express.js.
