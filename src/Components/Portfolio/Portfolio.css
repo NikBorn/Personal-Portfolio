@@ -1,0 +1,44 @@
+
+.project-container {
+  padding: 40px ;
+  /* margin: 0 40px; */
+  display: flex;
+}
+
+.project {
+  width: 33.33%;
+  border: 2px solid rgb(6, 34, 49);
+}
+
+.project-preview-1 {
+  background-image: url('./MovieTracker.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 210px;
+  width: 100%;
+}
+
+.project-preview-2 {
+  background-image: url('./PalettePicker.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 210px;
+  width: 100%;
+}
+
+.project-preview-3 {
+  background-image: url('./Headcount.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 210px;
+  width: 100%;
+}
+
+.project-name {
+  background-color : #0F5F8A;
+  text-align: center;
+}
+
+.project2 {
+  margin: 0 10px;
+}
