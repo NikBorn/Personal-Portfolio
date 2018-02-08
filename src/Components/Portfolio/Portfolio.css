@@ -6,11 +6,15 @@
 }
 
 .project {
-  width: 33.33%;
+  width: 30%;
   border: 2px solid rgb(6, 34, 49);
+  display: inline-block;
+  margin: 4px;
+  height: 230px;
+  overflow: hidden;
 }
 
-.project-preview-1 {
+.project-preview-MovieTracker {
   background-image: url('./MovieTracker.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +22,7 @@
   width: 100%;
 }
 
-.project-preview-2 {
+.project-preview-PalettePicker {
   background-image: url('./PalettePicker.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +30,7 @@
   width: 100%;
 }
 
-.project-preview-3 {
+.project-preview-Headcount {
   background-image: url('./Headcount.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,8 +41,41 @@
 .project-name {
   background-color : #0F5F8A;
   text-align: center;
+  padding: 10px;
 }
 
 .project2 {
   margin: 0 10px;
+}
+
+.project-info {
+  padding: 10px;
+  background-color: rgb(2, 68, 100);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* flex-direction: row; */
+}
+
+.project-info a {
+  font-weight: bold;
+  margin: 0;
+  /* border: 2px solid #045F8C; */
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  background-color: #045F8C;
+}
+
+.project-info a:hover {
+  background-color: #2A99CF;
+  border: none;
+}
+
+.project-expanded {
+  height: auto;
+}
+
+.home-link:hover {
+  border: none;
+  padding: 0;
 }

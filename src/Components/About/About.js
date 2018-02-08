@@ -14,15 +14,15 @@ const About = () => {
         titles in the past including: Manager, Director of Marketing, Practice Manager for a speech therapy practice,
         Licensing Manager, Delivery Manager, and Product Designer.
         <br /><br />
-        I am very excited to enter a new chapter of my life by starting out in a completly new field.  I recently
+        I am very excited to enter a new chapter of my life by starting out in a completely new field.  I recently
         graduated from Turing School of Software and Design in Denver, CO with a certificate of completion from their
         front-end developer program.  Besides learning valuable skills like time and stress management as well as
-        personal and coloaborative, project management; I also learned HTML5, Javascript(Echmascript6), CSS3, React,
-        React-Redux and Express.js.
+        personal and collaborative project management; I am also knowledgeable in HTML5, Javascript(ES6), CSS3, 
+        React, React-Redux and Express.js.
         <br /><br />
-        I'm looking to join a collaborative team environment, that will also offer me a path to advancement.  I am 
-        very coachable and someone who enjoys furthering my education as well as teaching others the skils and techniques
-        that I've picked up along the way.
+        I'm looking to join a collaborative team environment that will also offer me an opportunity for advancement. 
+        I am very coachable and someone who enjoys furthering my education as well as teaching others the skills and 
+        techniques that I've picked up along the way.
       </p>
     </main>
   )
