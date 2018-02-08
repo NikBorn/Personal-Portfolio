@@ -1,17 +1,41 @@
 import React, { Component } from 'react';
-import './Portfolio.css'
+import './Portfolio.css';
+import Project from '../Project/Project'
 
 class Portfolio extends Component {
 
   constructor() {
     super();
     this.state = {
-      projects: []
+      projects: [{ name: 'MovieTracker', isSelected: false, gitHub: 'https://www.github.com/NikBorn/movie-tracker', website:''}, 
+        { name: 'PalettePicker', isSelected: false, gitHub: 'https://www.github.com/NikBorn/mod4-Palette-Picker', website: 'https://nikb-palette-picker.herokuapp.com/' }, 
+        { name: 'Headcount', isSelected: false, gitHub: 'https://www.github.com/NikBorn/Headcount2.0', website: ''}]
     }
+    this.handleClick = this.handleClick.bind(this)
+  }
+
+  handleClick(name) {
+    const newState = [...this.state.projects].map(project => {
+      if (project.name === name) {
+        project.isSelected = !project.isSelected
+      }
+      return project
+    })
+    this.setState({ projects: newState})
   }
 
   render() {
-
+    console.log(this.state.projects)
+    const projects = this.state.projects.map( (project, index) => {
+        return <Project name={project.name} 
+        key={project.name} 
+        isSelected={project.isSelected} 
+        gitHub={project.gitHub}
+        website={project.website}
+        handleClick={this.handleClick} />
+      })
+    
+    
     return (
       <main className='portfolio-page'>
         <div className='page-header'>
@@ -20,24 +44,7 @@ class Portfolio extends Component {
           </h3>
         </div>
           <div className='project-container'>
-
-            <div className='project'>
-              <h3 className='project-name'>MovieTracker</h3>
-              <div className='project-preview-1'>
-              </div>
-            </div>
-
-            <div className='project project2'>
-              <h3 className='project-name'>Palette Picker</h3>
-              <div className='project-preview-2'>
-              </div>
-            </div>
-
-            <div className='project'>
-              <h3 className='project-name'>Headcount</h3>
-              <div className='project-preview-3'>
-              </div>
-            </div>
+            { projects }
           </div>
       </main>
     )
