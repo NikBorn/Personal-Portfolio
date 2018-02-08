@@ -24,19 +24,19 @@ class App extends Component {
           }
         />
 
-        <Route exact path='nb-fe-portfolio.herokuapp.com/about'
+        <Route exact path='/about'
           render={() =>
             <About />
           }
         />
 
-        <Route exact path='nb-fe-portfolio.herokuapp.com/portfolio'
+        <Route exact path='/portfolio'
           render={() =>
             <Portfolio />
           }
         />
 
-        <Route exact path='nb-fe-portfolio.herokuapp.com/contact'
+        <Route exact path='/contact'
           render={() =>
             <Contact />
           }

@@ -15,9 +15,9 @@ const Header = () => {
         </div>
       </a>
       <nav>
-        <a href="nb-fe-portfolio.herokuapp.com/about">ABOUT</a>
-        <a href="nb-fe-portfolio.herokuapp.com/portfolio">PORTFOLIO</a>
-        <a href="nb-fe-portfolio.herokuapp.com/contact">CONTACT</a>
+        <a href="/about">ABOUT</a>
+        <a href="/portfolio">PORTFOLIO</a>
+        <a href="/contact">CONTACT</a>
       </nav>
     </header>
   )
