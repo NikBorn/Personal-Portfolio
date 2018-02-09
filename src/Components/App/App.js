@@ -36,7 +36,7 @@ class App extends Component {
           }
         />
 
-        <Route exact path='https://nb-fe-portfolio.herokuapp.com/contact'
+        <Route exact path='/contact'
           render={() =>
             <Contact />
           }
