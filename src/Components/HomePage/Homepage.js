@@ -13,21 +13,21 @@ const Homepage = () => {
               page if you would like to reach out.
             </p>
       <section className='nav-buttons-container'>
-        <article className='nav-button'>
+        <a className='nav-button' href='/about'>
           <div className='nav-button-icon nav-button-info'>
           </div>
           <p>ABOUT</p>
-        </article>
-        <article className='nav-button'>
+        </a>
+        <a className='nav-button' href='/portfolio'>
           <div className='nav-button-icon nav-button-portfolio'>
           </div>
           <p>PORTFOLIO</p>
-        </article>
-        <article className='nav-button'>
+        </a>
+        <a className='nav-button' href='/contact'>
           <div className='nav-button-icon nav-button-contact'>
           </div>
           <p>CONTACT</p>
-        </article>
+        </a>
       </section>
     </main>
   )
