@@ -11,7 +11,7 @@ const Homepage = () => {
               I created this website to show off some of the projects and websites that I have worked on in the past.  Take
               a look around and let me know your thoughts.  Be sure and visit the portfolio page to see my work and the contact
               page if you would like to reach out.
-            </p>
+      </p>
       <section className='nav-buttons-container'>
         <a className='nav-button' href='/about'>
           <div className='nav-button-icon nav-button-info'>
@@ -30,7 +30,7 @@ const Homepage = () => {
         </a>
       </section>
     </main>
-  )
+  );
 };
 
 export default Homepage;
