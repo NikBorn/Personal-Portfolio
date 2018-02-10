@@ -86,6 +86,7 @@ nav > a:hover {
   align-items: center;
   background-color: #045F8C;
   flex-direction: column;
+  transition: background-color .5s;
 }
 
 .nav-button:hover {
@@ -98,15 +99,12 @@ nav > a:hover {
   background-size: contain;
   margin-bottom: 8px;
   background-repeat: no-repeat;
+  transition: height .4s, width .4s
 }
 
 .nav-button:hover > .nav-button-icon{
   height: 90px;
   width: 90px;
-}
-
-.nav-button:hover > p {
-  font-size: 20px;
 }
 
 .nav-button-info {
