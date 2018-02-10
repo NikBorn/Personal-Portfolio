@@ -14,7 +14,13 @@ const Project = (props) => {
         <div className={projectInfo}>
           <a href={props.website} target='_blank'>Website</a>
           <a href={props.gitHub} target='_blank'>Github</a>
-          <p>Short description about the project.  Talk about the tech stack,challenges, and things that went well.</p>
+          <p>Short description about the project.  Talk about the tech stack,challenges, and things that went well.
+            Short description about the project.  Talk about the tech stack,challenges, and things that went well.
+            Short description about the project.  Talk about the tech stack,challenges, and things that went well.
+            Short description about the project.  Talk about the tech stack,challenges, and things that went well.
+            Short description about the project.  Talk about the tech stack,challenges, and things that went well.
+            Short description about the project.  Talk about the tech stack,challenges, and things that went well.
+          </p>
         </div>
       </div>
       <div className={projectPreview} >
