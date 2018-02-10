@@ -3,24 +3,19 @@ import './Project.css';
 
 const Project = (props) => {
 
-  const projectPreview = `project-preview-${props.name}`;
-  const projectInfo = props.isSelected === false ? `project-info` : `project-info project-info-expanded`;
-  // const isExpanded = props.isSelected === false ? `project` : `project project-expanded`
+  const projectPreview = `project-preview-${props.name} project-preview`;
 
   return (
     <div className='project' >
       <h3 className='project-name'>{props.name}</h3>
       <div className='project-overview'>
-        <div className={projectInfo}>
+        <div className='project-info'>
           <a href={props.website} target='_blank'>Website</a>
           <a href={props.gitHub} target='_blank'>Github</a>
-          <p>Short description about the project.  Talk about the tech stack,challenges, and things that went well.
-            Short description about the project.  Talk about the tech stack,challenges, and things that went well.
-            Short description about the project.  Talk about the tech stack,challenges, and things that went well.
-            Short description about the project.  Talk about the tech stack,challenges, and things that went well.
-            Short description about the project.  Talk about the tech stack,challenges, and things that went well.
-            Short description about the project.  Talk about the tech stack,challenges, and things that went well.
-          </p>
+          <br />
+          <p>TECH: {props.tech}</p>
+          <br/>
+          <p>DESCRIPTION: {props.description}</p>
         </div>
       </div>
       <div className={projectPreview} >
