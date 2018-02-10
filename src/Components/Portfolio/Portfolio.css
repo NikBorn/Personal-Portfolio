@@ -25,7 +25,7 @@
   float: bottom;
   /* display: none; */
   overflow: scroll;
-  transition: height .5s;  
+  transition: height .8s;  
 }
 
 .project:hover > .project-overview {
