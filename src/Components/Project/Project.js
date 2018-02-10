@@ -3,8 +3,8 @@ import './Project.css';
 
 const Project = (props) => {
 
-  const projectPreview = `project-preview-${props.name}`
-  const projectInfo = props.isSelected === false ? `project-info` : `project-info project-info-expanded`
+  const projectPreview = `project-preview-${props.name}`;
+  const projectInfo = props.isSelected === false ? `project-info` : `project-info project-info-expanded`;
   // const isExpanded = props.isSelected === false ? `project` : `project project-expanded`
 
   return (
@@ -21,7 +21,7 @@ const Project = (props) => {
       </div>
      
     </div>
-  )
-}
+  );
+};
 
 export default Project;

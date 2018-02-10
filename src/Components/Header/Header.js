@@ -20,7 +20,7 @@ const Header = () => {
         <a href="/contact">CONTACT</a>
       </nav>
     </header>
-  )
+  );
 };
 
 export default Header;
