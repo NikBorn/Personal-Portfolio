@@ -8,6 +8,8 @@ const About = () => {
           About Me
         </h3>
       </div>
+      <div className='hero-image'>
+      </div>
       <p className='about-text'>
         I am coming into the tech industry after a successful career in Marketing and Management.  I graduated from 
         the University of Colorado with a BS in Business with an emphasis in Marketing.  I have held many different job
