@@ -16,7 +16,7 @@ const Contact = () => {
         <h4>LinkedIn Profile</h4>
       </div>
     </main>
-  )
-}
+  );
+};
 
 export default Contact;
