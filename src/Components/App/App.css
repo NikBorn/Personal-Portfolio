@@ -112,15 +112,15 @@ nav > a:hover {
 }
 
 .nav-button-info {
-  background-image: url('./info-2-128.png')
+  background-image: url('../../content/info-2-128.png')
 }
 
 .nav-button-portfolio {
-  background-image: url('./website-design-3-128.png')
+  background-image: url('../../content/website-design-3-128.png')
 }
 
 .nav-button-contact {
-  background-image: url('./email-14-128.png');
+  background-image: url('../../content/email-14-128.png');
 }
 
 .hero-image {
