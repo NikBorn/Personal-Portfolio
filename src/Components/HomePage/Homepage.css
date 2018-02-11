@@ -1,0 +1,67 @@
+.homepage {
+  padding: 0 40px;
+}
+
+.site-title {
+  margin-top: 40px;
+  border-bottom: 2px solid #0F5F8A;
+  display: inline-block;
+  font-weight: 300;
+}
+
+.intro {
+  margin: 20px 20px 0 20px;
+  line-height: 1.2em;
+  letter-spacing: .05em
+}
+
+.nav-buttons-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-buttons-container > a {
+  margin-right: 0;
+}
+
+.nav-button {
+  width: 33.2%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #045F8C;
+  flex-direction: column;
+  transition: background-color .5s;
+}
+
+.nav-button:hover {
+  background-color: rgb(2, 68, 100);
+}
+
+.nav-button-icon {
+  height: 80px;
+  width: 80px;
+  background-size: contain;
+  margin-bottom: 8px;
+  background-repeat: no-repeat;
+  transition: height .4s, width .4s
+}
+
+.nav-button:hover>.nav-button-icon {
+  height: 90px;
+  width: 90px;
+}
+
+.nav-button-info {
+  background-image: url('../../content/info-2-128.png')
+}
+
+.nav-button-portfolio {
+  background-image: url('../../content/website-design-3-128.png')
+}
+
+.nav-button-contact {
+  background-image: url('../../content/email-14-128.png');
+}

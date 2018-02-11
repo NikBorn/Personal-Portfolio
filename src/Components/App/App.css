@@ -1,14 +1,4 @@
 
-
-header {
-  display: flex;
-  justify-content: space-between;
-  /* border-bottom: 4px solid #0F5F8A; */
-  padding: 20px 40px;
-  align-items: center;
-
-}
-
 main {
   padding-bottom: 100px;
 }
@@ -19,140 +9,17 @@ h2 {
   letter-spacing: .05em;  
 }
 
-.name {
-  font-size: 16px;  
-  font-weight: 700;
-}
-
-.name-and-logo {
-  display: flex;
-}
-
-.logo-container {
-  border: 2px solid #F9F9F9;
-  width: 30px;
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  font-weight: 700;
-  font-size: 20px;
-  padding: 4px;
-  margin-right: 4px;
-}
-
 a {
   text-decoration: none;
   margin-right: 20px;
   color: #F9F9F9;
 }
 
-.nav-buttons-container > a {
-  margin-right: 0;
-}
-
-nav > a:hover {
-  padding-bottom: 2px;
-  border-bottom: 2px solid #0F5F8A;
-}
-/* 
-.hav-buttons-container > a:hover {
-  padding: 0;
-  border-bottom: none;
-} */
-
-
-.site-title {
-  margin-top: 40px;
-  border-bottom: 2px solid #0F5F8A;
-  display: inline-block;
-  font-weight: 300;
-}
-
-.intro {
-  margin: 20px 20px 0 20px;
-  line-height: 1.2em;
-  letter-spacing: .05em
-
-}
-
-.nav-buttons-container {
-  margin-top: 40px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.nav-button {
-  width: 33.2%;
-  height: 200px;
-  /* border: 2px solid magenta; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #045F8C;
-  flex-direction: column;
-  transition: background-color .5s;
-}
-
-.nav-button:hover {
-  background-color: rgb(2, 68, 100);
-}
-
-.nav-button-icon {
-  height: 80px;
-  width: 80px;
-  background-size: contain;
-  margin-bottom: 8px;
-  background-repeat: no-repeat;
-  transition: height .4s, width .4s
-}
-
-.nav-button:hover > .nav-button-icon{
-  height: 90px;
-  width: 90px;
-}
-
-.nav-button-info {
-  background-image: url('./info-2-128.png')
-}
-
-.nav-button-portfolio {
-  background-image: url('./website-design-3-128.png')
-}
-
-.nav-button-contact {
-  background-image: url('./email-14-128.png');
-}
-
-.hero-image {
-  background-image: url('../About/hero.png');
-  width: 100;
-  height: 370px;
-  background-size: cover;
-  background-position: 0 -30px;
-}
-
-
-
 .page-header {
   background-color: #F9F9F9;
   color: #0F5F8A;
   background-color : #0F5F8A;
   color: #F9F9F9;
-  padding: 20px 40px;
-}
-
-.homepage {
-  padding: 0 40px;
-}
-
-.about-text {
-  padding: 0 40px;
-  margin-top: 40px;
-  line-height: 1.3em;
-  letter-spacing: .05em
-}
-
-.contact-page {
   padding: 20px 40px;
 }
 

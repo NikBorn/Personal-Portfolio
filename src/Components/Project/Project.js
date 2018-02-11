@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Project.css';
+import PropTypes from 'prop-types';
+
 
 const Project = (props) => {
 
-  const projectPreview = `project-preview-${props.name} project-preview`;
+  const projectPreviewClassNames = `project-preview-${props.name} project-preview`;
 
   return (
     <div className='project' >
@@ -18,11 +20,19 @@ const Project = (props) => {
           <p>DESCRIPTION: {props.description}</p>
         </div>
       </div>
-      <div className={projectPreview} >
+      <div className={projectPreviewClassNames} >
       </div>
      
     </div>
   );
+};
+
+Project.propTypes = {
+  name: PropTypes.string,
+  website: PropTypes.string,
+  gitHub: PropTypes.string,
+  tech: PropTypes.string,
+  description: PropTypes.string
 };
 
 export default Project;

@@ -34,7 +34,7 @@
 } 
 
 .project-preview-MovieTracker {
-  background-image: url('./MovieTracker.png');
+  background-image: url('../../content/MovieTracker.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 210px;
@@ -42,7 +42,7 @@
 }
 
 .project-preview-PalettePicker {
-  background-image: url('./PalettePicker.png');
+  background-image: url('../../content/PalettePicker.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 210px;
@@ -50,7 +50,7 @@
 }
 
 .project-preview-Headcount {
-  background-image: url('./Headcount.png');
+  background-image: url('../../content/Headcount.png');
   background-size: cover;
   background-repeat: no-repeat;
   height: 210px;
