@@ -8,14 +8,12 @@ class Portfolio extends Component {
   constructor() {
     super();
     this.state = {
-      projects: [{ name: 'MovieTracker', gitHub: 'https://www.github.com/NikBorn/movie-tracker', website:'', tech: ['React-redux', 'Asyncronous Javascript Calls', 'CSS3', 'HTML5', 'ES6']}, 
-        { name: 'PalettePicker', gitHub: 'https://www.github.com/NikBorn/mod4-Palette-Picker', website: 'https://nikb-palette-picker.herokuapp.com/' }, 
-        { name: 'Headcount', gitHub: 'https://www.github.com/NikBorn/Headcount2.0', website: ''}]
+      projects: projects
     };
   }
 
   render() {
-    const projectobjs = projects.map( (project) => {
+    const projectobjs = this.state.projects.map( (project) => {
       return <Project name={project.name} 
         key={project.name} 
         isSelected={project.isSelected} 
@@ -24,7 +22,6 @@ class Portfolio extends Component {
         tech={project.tech} 
         description={project.description}/>;
     });
-    
     
     return (
       <main className='portfolio-page'>
@@ -40,5 +37,6 @@ class Portfolio extends Component {
     );
   }
 }
+
 
 export default Portfolio;

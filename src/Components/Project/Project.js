@@ -1,5 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Project.css';
+import PropTypes from 'prop-types';
+
 
 const Project = (props) => {
 
@@ -23,6 +25,14 @@ const Project = (props) => {
      
     </div>
   );
+};
+
+Project.propTypes = {
+  name: PropTypes.string,
+  website: PropTypes.string,
+  gitHub: PropTypes.string,
+  tech: PropTypes.string,
+  description: PropTypes.string
 };
 
 export default Project;
