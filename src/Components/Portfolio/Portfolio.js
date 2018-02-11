@@ -14,7 +14,8 @@ class Portfolio extends Component {
 
   render() {
     const projectobjs = this.state.projects.map( (project) => {
-      return <Project name={project.name} 
+      return <Project 
+        name={project.name} 
         key={project.name} 
         isSelected={project.isSelected} 
         gitHub={project.gitHub}
@@ -37,6 +38,5 @@ class Portfolio extends Component {
     );
   }
 }
-
 
 export default Portfolio;

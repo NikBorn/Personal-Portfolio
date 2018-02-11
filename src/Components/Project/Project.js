@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const Project = (props) => {
 
-  const projectPreview = `project-preview-${props.name} project-preview`;
+  const projectPreviewClassNames = `project-preview-${props.name} project-preview`;
 
   return (
     <div className='project' >
@@ -20,7 +20,7 @@ const Project = (props) => {
           <p>DESCRIPTION: {props.description}</p>
         </div>
       </div>
-      <div className={projectPreview} >
+      <div className={projectPreviewClassNames} >
       </div>
      
     </div>
