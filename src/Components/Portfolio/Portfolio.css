@@ -2,15 +2,15 @@
 .project-container {
   padding: 40px ;
   /* margin: 0 40px; */
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr)
 }
 
 .project {
-  width: 33.3%;
+  width: 100%;
   border: 2px solid rgb(6, 34, 49);
   display: inline-block;
-  margin: 4px;
   height: 230px;
   overflow: hidden;
   position: relative;
@@ -33,28 +33,24 @@
   height: 100%;
 } 
 
-.project-preview-MovieTracker {
-  background-image: url('../../content/MovieTracker.png');
+.project-preview {
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top center;
   height: 210px;
   width: 100%;
+}
+
+.project-preview-MovieTracker {
+  background-image: url('../../content/MovieTracker.png');
 }
 
 .project-preview-PalettePicker {
   background-image: url('../../content/PalettePicker.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 210px;
-  width: 100%;
 }
 
 .project-preview-Headcount {
   background-image: url('../../content/Headcount.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 210px;
-  width: 100%;
 }
 
 .project-name {
@@ -96,7 +92,15 @@
   height: auto;
 }
 
-.home-link:hover {
-  border: none;
-  padding: 0;
+@media screen and (max-width: 1200px) {
+  .project-container {
+    grid-template-columns: repeat(2, 1fr)
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .project-container {
+    padding: 15px;
+    grid-template-columns: repeat(1, 1fr)
+  }
 }

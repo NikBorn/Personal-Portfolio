@@ -10,11 +10,11 @@ const Contact = () => {
         </h3>
       </div>
       <div className='contact-page'>
-        <h4>Email: NikolausRB@Gmail.com </h4>
-        <h4>Phone: 720-883-1603</h4>
-        <h4>Slack: @NikBorn</h4>
-        <h4>GitHub: @NikBorn</h4>
-        <h4>LinkedIn Profile</h4>
+        <p><span className='label'>Email:</span>NikolausRB@Gmail.com </p> {/* <- make this an email link */}
+        <p><span className='label'>Phone:</span>720-883-1603</p> {/* <- make this a phone link */}
+        <p><span className='label'>Slack:</span>@NikBorn</p>
+        <p><span className='label'>GitHub:</span>@NikBorn</p> {/* <- make this a GitHub link */}
+        <p><span className='label'>LinkedIn:</span></p> {/* <- make this a LinkedIn link */}
       </div>
     </main>
   );
