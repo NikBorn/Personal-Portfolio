@@ -14,7 +14,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  height: 570px;
+  height: 340px;
 }
 
 .project-preview-MovieTracker {
@@ -33,10 +33,6 @@
   background-color: #0F5F8A;
   text-align: center;
   padding: 10px;
-}
-
-.project2 {
-  margin: 0 10px;
 }
 
 .project-info {
@@ -69,4 +65,10 @@
 
 .project-expanded {
   height: auto;
+}
+
+@media screen and (min-width: 1200px) {
+  .project-preview {
+    height: 570px;
+  }
 }
