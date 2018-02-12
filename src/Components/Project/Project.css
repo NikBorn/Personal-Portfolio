@@ -1,0 +1,72 @@
+.project {
+  width: 100%;
+  display: inline-block;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.project:hover>.project-overview {
+  height: 100%;
+}
+
+.project-preview {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 570px;
+}
+
+.project-preview-MovieTracker {
+  background-image: url('../../content/MovieTracker.png');
+}
+
+.project-preview-PalettePicker {
+  background-image: url('../../content/PalettePicker.png');
+}
+
+.project-preview-Headcount {
+  background-image: url('../../content/Headcount.png');
+}
+
+.project-name {
+  background-color: #0F5F8A;
+  text-align: center;
+  padding: 10px;
+}
+
+.project2 {
+  margin: 0 10px;
+}
+
+.project-info {
+    padding: 0 40px 60px 40px;
+    margin: 40px auto 0;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    max-width: 600px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.website-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.website-container a {
+  font-weight: bold;
+  margin: 0;
+  padding: 18px 20px;
+  margin-bottom: 10px;
+  background-color: #045F8C;
+}
+
+.project-info a:hover {
+  background-color: rgb(15, 114, 163);
+}
+
+.project-expanded {
+  height: auto;
+}

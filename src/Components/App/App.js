@@ -20,7 +20,7 @@ class App extends Component {
 
         <Route exact path='/'
           render={() =>
-            <Homepage />
+            <About />
           }
         />
 

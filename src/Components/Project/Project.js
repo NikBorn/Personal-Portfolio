@@ -9,18 +9,22 @@ const Project = (props) => {
 
   return (
     <div className='project' >
+      <div className={projectPreviewClassNames} >
+      </div>
       <h3 className='project-name'>{props.name}</h3>
-      <div className='project-overview'>
-        <div className='project-info'>
+
+      <div className='project-info'>
+
+        <div className='website-container'>
           <a href={props.website} target='_blank'>Website</a>
           <a href={props.gitHub} target='_blank'>Github</a>
-          <br />
-          <p>TECH: {props.tech}</p>
-          <br/>
-          <p>DESCRIPTION: {props.description}</p>
         </div>
-      </div>
-      <div className={projectPreviewClassNames} >
+
+        <p>TECH: {props.tech}</p>
+        {/* <br /> */}
+        <br/>
+        <p>DESCRIPTION: {props.description}</p>
+
       </div>
      
     </div>
