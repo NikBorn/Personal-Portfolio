@@ -10,8 +10,8 @@ const Contact = () => {
         </h3>
       </div>
       <div className='contact-page'>
-        <a href='mailto:NikolausRB@gmail.com'>Email Me!</a>
-        <p><span className='label'>Phone:</span>720-883-1603</p> {/* <- make this a phone link */}
+        <a href='mailto:NikolausRB@gmail.com'>Email Me</a>
+        <a href='tel:1-719-201-9493'>Call Me</a>
         <p><span className='label'>Slack:</span>@NikBorn</p>
         <p><span className='label'>GitHub:</span>@NikBorn</p> {/* <- make this a GitHub link */}
         <p><span className='label'>LinkedIn:</span></p> {/* <- make this a LinkedIn link */}
@@ -19,7 +19,5 @@ const Contact = () => {
     </main>
   );
 };
-
-{/* <a href="mailto:someone@yoursite.com">Email Us</a> */}
 
 export default Contact;
