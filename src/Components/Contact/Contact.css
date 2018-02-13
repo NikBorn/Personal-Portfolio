@@ -1,12 +1,30 @@
 .contact-page {
-  padding: 20px 40px;
+  padding-top: 60px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 220px;
 }
 
-.contact-page > p {
-  margin-bottom: 8px;
+.contact-page a {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  padding: 20px;
+  background-color: rgb(15, 114, 163);
+  transition: background-color .5s;
+  transition-timing-function: linear;
+  text-align: center;
 }
 
-.label {
-  font-weight: bold;
-  margin-right: 8px;
+.contact-page a:hover {
+  background-color: #045F8C;
+}
+
+@media screen and (min-width: 700px) {
+  .contact-page {
+    width: 500px;
+    flex-direction: row;
+  }
 }
