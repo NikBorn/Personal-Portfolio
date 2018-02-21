@@ -17,6 +17,10 @@
   height: 220px;
 }
 
+.project-preview-BYOB {
+  background-image: url('../../content/BYOB.png');
+}
+
 .project-preview-MovieTracker {
   background-image: url('../../content/MovieTracker.png');
 }
