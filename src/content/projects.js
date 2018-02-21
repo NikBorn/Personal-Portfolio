@@ -11,7 +11,7 @@ const projects = [
     description: 'PalettePicker was a solo project and the fist project in which we created a backend database and server.  I found knex and express to be very intuitive and I really enjoyed my first venture into the backend of a website!'},
   { name: 'Headcount', 
     gitHub: 'https://www.github.com/NikBorn/Headcount2.0', 
-    website: '',
+    website: 'https://nb-headcount.herokuapp.com/',
     tech: 'React, CSS3, HTML5, javascript-ES6, Victory, enzyme',
     description: 'Headcount was the first individual React project that I completed.  I also wanted to challenge myself implement some data visualization, so I ended up using Victory, which I really liked and I look forward to implementing in future projects as well.'}
 ];

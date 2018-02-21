@@ -14,7 +14,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  height: 340px;
+  height: 220px;
 }
 
 .project-preview-MovieTracker {
@@ -67,6 +67,24 @@
 
 .project-expanded {
   height: auto;
+}
+
+@media screen and (min-width: 480px) {
+  .project-preview {
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .project-preview {
+    height: 380px;
+  }
+}
+
+@media screen and (min-width: 840px) {
+  .project-preview {
+    height: 470px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
