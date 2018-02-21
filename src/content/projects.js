@@ -13,7 +13,12 @@ const projects = [
     gitHub: 'https://www.github.com/NikBorn/Headcount2.0', 
     website: 'https://nb-headcount.herokuapp.com/',
     tech: 'React, CSS3, HTML5, javascript-ES6, Victory, enzyme',
-    description: 'Headcount was the first individual React project that I completed.  I also wanted to challenge myself implement some data visualization, so I ended up using Victory, which I really liked and I look forward to implementing in future projects as well.'}
+    description: 'Headcount was the first individual React project that I completed.  I also wanted to challenge myself implement some data visualization, so I ended up using Victory, which I really liked and I look forward to implementing in future projects as well.'},
+  { name: 'BYOB',
+    gitHub: 'https://github.com/NikBorn/byob',
+    website: 'https://nb-byob.herokuapp.com/',
+    tech: 'jQuery, Express.js, Knex, PostgreSQL, chai, mocha',
+    description: 'This was a two person group assignment in which we were tasked with building a backend using Express.js and Knex.  This project also served as an introduction for Jason Web Tokens.  If you enter an email ending in turing.io it will grant you admin rights and you can make requests(POST/PUT/PATCH/DELETE) via Postman.'}
 ];
 
 
