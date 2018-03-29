@@ -32,7 +32,7 @@
   transition-timing-function: linear;
   text-align: center;
   color: #F9F9F9;
-  
+  width: 180px;
 }
 
 .resume a:hover {
