@@ -22,7 +22,7 @@
   text-align: center;
 }
 
-.resume button {
+.resume a {
   display: block;
   margin: 60px auto 0 auto;
   font-weight: 700;
@@ -35,6 +35,6 @@
   
 }
 
-.resume button:hover {
+.resume a:hover {
   background-color: #045F8C;
 }

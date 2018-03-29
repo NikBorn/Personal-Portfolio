@@ -1,5 +1,6 @@
 import React from 'react';
 import './Resume.css';
+import '../../content/NikBornemeierFrontendResume.pdf'
 
 const Resume = () => {
   return (
@@ -45,7 +46,7 @@ const Resume = () => {
       <p>
         University of Colorado – BS in Business with an emphasis in Marketing 2005
       </p>
-      <button>Download</button>
+      <a href={require('../../content/NikBornemeierFrontendResume.pdf')} download>Download</a>
     </main>
   );
 
