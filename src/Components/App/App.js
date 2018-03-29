@@ -6,6 +6,7 @@ import Homepage from '../HomePage/Homepage';
 import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
+import Resume from '../Resume/Resume';
 
 class App extends Component {
   render() {
@@ -42,6 +43,12 @@ class App extends Component {
           }
         />
 
+        <Route exact path='/resume'
+          render={() => 
+            <Resume />
+          }
+        />
+        
       </div>
     );
   }
