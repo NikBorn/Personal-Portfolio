@@ -1,0 +1,40 @@
+.resume {
+  background-color: #F9F9F9;
+  color: #0F5F8A;
+  padding: 80px;
+}
+
+.resume p {
+  padding: 0 40px;
+  /* margin: 40px auto 0; */
+  line-height: 1.5;
+  letter-spacing: .05em;
+  /* max-width: 600px; */
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.resume h4 {
+  margin: 20px;
+}
+
+.resume h3 {
+  text-align: center;
+}
+
+.resume a {
+  display: block;
+  margin: 60px auto 0 auto;
+  font-weight: 700;
+  padding: 20px;
+  background-color: rgb(15, 114, 163);
+  transition: background-color .5s;
+  transition-timing-function: linear;
+  text-align: center;
+  color: #F9F9F9;
+  width: 180px;
+}
+
+.resume a:hover {
+  background-color: #045F8C;
+}
