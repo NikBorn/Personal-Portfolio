@@ -19,14 +19,14 @@ const Resume = () => {
         <br/>
         <strong>HTML5, JQUERY, EXPRESS, JEST</strong>
         <br/>
-        Palette Picker was an individual Project in which a user can generate a random five color palette and save it to a project to be used later. This was the first project in which we were tasked with crea ng a server and database on the backend.
+        Palette Picker was an individual Project in which a user can generate a random five color palette and save it to a project to be used later. This was the first project in which we were tasked with creating a server and database on the backend.
         <br/>
         <br/>
         Movie Tracker
         <br/>
         <strong>HTML5, REACT, REACT-REDUX, REACT-ROUTER, SCSS, ASYNC API CALLS, JEST</strong>
         <br/>
-        Movie Tacker was a three person group project in which we were tasked with crea ng a simplified front-end version of Ne lix. This was our first experience wri ng a redux web applica on. We created a single page web app that makes asynchronous API calls and displaying new movies with a summary and user ratings.
+        Movie Tacker was a three person group project in which we were tasked with creating a simplified front-end version of Netflix. This was our first experience writing a redux web application. We created a single page web app that makes asynchronous API calls and displays new movies with a summary and user ratings.
       </p>
       <h4>EXPERIENCE</h4>
       <p>
