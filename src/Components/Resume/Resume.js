@@ -35,8 +35,8 @@ const Resume = () => {
         Working directly with Walmart I managed a team of over 30 delivery drivers, for Walmarts online grocery delivery system. Hired, trained, and managed all employees and handled all day to day actvities.
       </p>
     </main>
-  )
+  );
 
-}
+};
 
 export default Resume;
