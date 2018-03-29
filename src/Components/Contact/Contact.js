@@ -11,7 +11,7 @@ const Contact = () => {
       </div>
       <div className='contact-page'>
         <a href='mailto:NikolausRB@gmail.com'>Email Me</a>
-        <a href='tel:1-719-201-9493'>Call Me</a>
+        <a href='tel:1-720-883-1603'>Call Me</a>
         <a href='https://github.com/NikBorn'>GitHub</a> 
         <a href='https://www.linkedin.com/in/nik-bornemeier/'>LinkedIn</a>
       </div>
