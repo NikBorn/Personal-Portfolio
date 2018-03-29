@@ -1,10 +1,15 @@
 import React from 'react';
 import './Resume.css';
-import '../../content/NikBornemeierFrontendResume.pdf'
+import '../../content/NikBornemeierFrontendResume.pdf';
 
 const Resume = () => {
-  return (
-    <main className='resume'>
+  return [
+    <div className='page-header' key='1'>
+      <h3>
+        My Resume
+      </h3>
+    </div>,
+    <main className='resume' key='2'>
       <h4>PROFILE</h4>
       <p>
         I am a Denver based web developer with a passion for creativity and continuing education. I am excited to continue to learn and write complex code. I am currently looking to join a collaborative developement team in the Denver metro area or Boulder.
@@ -48,7 +53,7 @@ const Resume = () => {
       </p>
       <a href={require('../../content/NikBornemeierFrontendResume.pdf')} download>Download</a>
     </main>
-  );
+  ];
 
 };
 
