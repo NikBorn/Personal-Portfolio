@@ -7,6 +7,7 @@ import About from '../About/About';
 import Portfolio from '../Portfolio/Portfolio';
 import Contact from '../Contact/Contact';
 import Resume from '../Resume/Resume';
+import resumePDF from '../../content/NikBornemeierFrontendResume.pdf'
 
 class App extends Component {
   render() {
@@ -46,6 +47,12 @@ class App extends Component {
         <Route exact path='/resume'
           render={() => 
             <Resume />
+          }
+        />
+
+        <Route exact path='/resume'
+          render={() =>
+            <resumePDF />
           }
         />
         
