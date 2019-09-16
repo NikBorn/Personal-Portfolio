@@ -33,6 +33,26 @@
   background-image: url('../../content/Headcount.png');
 }
 
+.project-preview-FlappyBird {
+  background-image: url('../../content/FlappyBird.png')
+}
+
+.project-preview-IdeaBox {
+  background-image: url('../../content/IdeaBox.png')
+}
+
+.project-preview-2DoBox {
+  background-image: url('../../content/2DoBox.png')
+}
+
+.project-preview-NumberGuesser {
+  background-image: url('../../content/NumberGuesser.png')
+}
+
+.project-preview-StaticComp3 {
+  background-image: url('../../content/StaticComp3.png')
+}
+
 .project-name {
   background-color: #0F5F8A;
   text-align: center;
